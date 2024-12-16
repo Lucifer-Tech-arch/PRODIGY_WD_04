@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    color: #2c3e50;
+}
+/* Navigation Bar */
+.navbar {
+    background-color: #000000;
+    padding: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    justify-content:center;
+}
+.logo img{
+    margin-right: 10px;
+    padding: 2px 4px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.navbar .logo h1 {
+    color: #fff;
+   margin-top: 20px;
+    font-family: "Playwrite GB S", cursive;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2.7rem;
+    padding: 0px 36px;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: cursive;
+}
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+/* Header Section */
+
+#home {
+   text-align: center;
+    color: rgb(255, 255, 255);
+   
+    background-image: linear-gradient(rgb(0,0,0,0.527),rgb(0,0,0,0.5)), url('bg.jpg');
+    padding: 100px 20px;
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-section h2 {
+    font-size: 2.8rem;
+    color: white;
+    font-family: "Oxanium", sans-serif;
+}
+.header-section p {
+    font-size: 1.4rem;
+}
+/* About Us Section */
+
+/* Services Section */
+#services {
+    margin: 34px 72px;
+    display: flex;
+}
+
+#services .box {
+    /* border: 2px solid brown;*/
+    text-align: left;
+    justify-content: center;
+    padding: 0px 38px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    height: 274px;
+    width: 282px;
+    /*background-color: rgb(234, 227, 227);*/
+    box-shadow: 10px 10px 10px rgb(165, 165, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+#services .box img {
+    height: 172px;
+    width: 334px;
+    display: block;
+    margin: 0px -20px;
+
+    border-radius: 8px;
+}
+
+#services .box h2 {
+    font-family: cursive;
+    font-size: 20px;
+    margin: 6px -9px;
+}
+
+#services .box p {
+    font-size: 14px;
+    margin: -2px -9px;
+}
+
+#services a {
+    text-decoration: none;
+    color: black;
+}
+
+.box .rating {
+    background-color: green;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 22px;
+    width: 35px;
+    color: white;
+    margin: 2px 252px;
+    padding: 1px 5px;
+}
+
+/* Contact Us Section */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.contact-section form {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+.contact-section label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contact-section button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-section button:hover {
+    background-color: #2980b9;
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #34495e;
+    padding: 20px;
+    color: white;
+}
+.categories{
+    display: flex;
+    width: 100%;
+}
+.category{
+    justify-content: center;
+}
+.consumer{
+    display: flex;
+}
